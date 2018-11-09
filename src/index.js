@@ -15,4 +15,8 @@ const MsgBoxPlugin = {
   }
 }
 
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(MsgBoxPlugin)
+}
+
 export default MsgBoxPlugin
