@@ -1,29 +1,17 @@
-# mvn
+## 使用方式
 
-## Project setup
-```
-npm install
-```
+```js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+import MsgBox from 'vue-message-box'
+import 'vue-message-box/dist/MsgBox.css'
+
+Vue.use(MsgBox)
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+```js
 
-### Run your tests
+// xx.vue
+this.$toast({
+  duration: 10000
+})
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

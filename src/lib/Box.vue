@@ -11,10 +11,6 @@
 </template>
 
 <script>
-import InfoIcon from './../assets/info.svg'
-import ErrorIcon from './../assets/error.svg'
-import RightIcon from './../assets/right.svg'
-import WarningIcon from './../assets/warning.svg'
 
 export default {
   props: {
