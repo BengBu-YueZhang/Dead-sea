@@ -1,10 +1,10 @@
 <template>
   <div class="box" :style="positionStyle">
     <div>
-      <img :src="InfoIcon" v-if="type === 'info'" class="icon"/>
-      <img :src="ErrorIcon" v-else-if="type === 'error'" class="icon"/>
-      <img :src="RightIcon" v-else-if="type === 'success'" class="icon"/>
-      <img :src="WarningIcon" v-else class="icon"/>
+      <img :src="require('./../assets/info.svg')" v-if="type === 'info'" class="icon"/>
+      <img :src="require('./../assets/error.svg')" v-else-if="type === 'error'" class="icon"/>
+      <img :src="require('./../assets/right.svg')" v-else-if="type === 'success'" class="icon"/>
+      <img :src="require('./../assets/warning.svg')" v-else class="icon"/>
     </div>
     <div class="title">{{title}}</div>
   </div>
