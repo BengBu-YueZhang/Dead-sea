@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { guid } from './util.js'
+import { guid } from '../util/util.js'
 import Box from './Box'
 
 export default {
